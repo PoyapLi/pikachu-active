@@ -26,7 +26,6 @@
     top: 0; /*定位就要写*/
     left: 0; /*定位就要写*/
     width: 100%; /*定位就要写*/
-    border: 1px solid red;
     overflow-y: auto; /*仅保留y轴滚动条*/
 }
 #demo::-webkit-scrollbar{
