@@ -147,6 +147,7 @@ var player = {
         player.ui.demo.scrollTop = player.ui.demo.scrollHeight;
     },
     play: function play() {
+        window.clearInterval(player.id);
         player.id = setInterval(player.run, player.time);
     },
     pause: function pause() {
@@ -171,4 +172,4 @@ var player = {
 
 player.init();
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.ca17498f.map
+//# sourceMappingURL=main.98b2f28c.map
