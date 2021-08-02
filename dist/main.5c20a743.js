@@ -143,7 +143,7 @@ var player = {
         }
         player.ui.demo.innerText = string.substr(0, player.n);
         player.ui.demo2.innerHTML = string.substr(0, player.n);
-        // 在控制台demo.scrollHeight即可得到scroll高度
+        // 在控制台demo.scrollHeight即可得到scroll高度，使之自动下滚
         player.ui.demo.scrollTop = player.ui.demo.scrollHeight;
     },
     play: function play() {
@@ -172,4 +172,4 @@ var player = {
 
 player.init();
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.98b2f28c.map
+//# sourceMappingURL=main.5c20a743.map
